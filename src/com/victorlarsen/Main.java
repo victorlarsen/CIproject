@@ -11,7 +11,7 @@ public class Main {
         porsche.setModel("carrera");
         System.out.println("Model is " + porsche.getModel());
 
-        holden.setModel("finbilen");
+        holden.setModel("Passat");
         System.out.println("Model is " + holden.getModel());
     }
 }
