@@ -18,7 +18,7 @@ public class Car {
 // Objekt ska kunna få sin data via metoder och inte direkt (dvs fälten görs private). Detta möjliggör att vi kan validera datat innan den definieras för ett visst objekt.
     public void setModel(String model) {
         String validModel = model.toLowerCase();
-        if (validModel.equals("carrera") || validModel.equals("commodore")) {
+        if (validModel.equals("carrera") || validModel.equals("finbil")) {
             this.model = model;
         } else {
             this.model = "Unknown";
